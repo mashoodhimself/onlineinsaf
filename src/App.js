@@ -12,6 +12,7 @@ import { Container } from 'react-bootstrap';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
+import Profile from './components/Profile';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path='/register' element={<Register />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/profile' element={<Profile />} />
         </Routes>
         <Footer />
       </BrowserRouter>

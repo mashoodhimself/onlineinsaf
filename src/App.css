@@ -112,7 +112,7 @@ body{
     padding-bottom: 20px;
 }
 
-.contact_container{
+.contact_container, .login_container, .register_container, .custom_container{
     background-color: white;
     margin: 0px !important;
     padding-top: 20px;
